@@ -1,18 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"');
 @plugin "@tailwindcss/typography";
 @import "tailwindcss";
 
 @theme {
     --font-jost: "Jost", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
 
     --text-paragraph: 16px;
-    --text-paragraph--line-height: 24px;
-    --text-paragraph--letter-spacing: 0;
+    --text-paragraph--line-height: auto;
+    --text-paragraph--letter-spacing: 0%;
+
+    --text-paragraph-big: 20px;
+    --text-paragraph-big--line-height: 32px;
+    --text-paragraph-big--letter-spacing: 0%;
+
+    --text-paragraph-large: 24px;
+    --text-paragraph-large--line-height: 36px;
+    --text-paragraph-large--letter-spacing: 0%;
+
+    --text-menu-link: 14px;
+    --text-menu-link--font-weight: medium;
+    --text-menu-link--line-height: auto;
+    --text-menu-link--letter-spacing: 0%;
 
     --text-h6: 16px;
     --text-h6--font-weight: bold;
     --text-h6--line-height: 150%;
-    --text-h6--letter-spacing: 0;
+    --text-h6--letter-spacing: 0%;
 
     --text-h5: 24px;
     --text-h5--font-weight: bold;
@@ -23,20 +38,20 @@
     --text-h4--line-height: 44px;
     --text-h4--letter-spacing: -1%;
 
-    --text-h3: 40px;
-    --text-h3--font-weight: bold;
-    --text-h3--line-height: 56px;
-    --text-h3--letter-spacing: -1%;
+    --text-h3: 32px;
+    --text-h3--font-weight: medium;
+    --text-h3--line-height: auto;
+    --text-h3--letter-spacing: 0%;
 
-    --text-h2: 48px;
-    --text-h2--font-weight: bold;
-    --text-h2--line-height: 64px;
-    --text-h2--letter-spacing: -1%;
+    --text-h2: 40;
+    --text-h2--font-weight: medium;
+    --text-h2--line-height: auto;
+    --text-h2--letter-spacing: 0%;
 
-    --text-h1: 64px;
-    --text-h1--font-weight: bold;
-    --text-h1--line-height: 82px;
-    --text-h1--letter-spacing: -1%;
+    --text-h1: 74;
+    --text-h1--font-weight: semibold;
+    --text-h1--line-height: 94;
+    --text-h1--letter-spacing: -2%;
 
     --text-label-1: 24px;
     --text-label-1--line-height: 32px;
@@ -44,6 +59,8 @@
     --text-label-2--font-weight: 370;
     --text-label-3: 18px;
     --text-cap-1: 16px;
+    --text-cap-1--font-weight: 500;
+    --text-cap-1--letter-spacing: 5%;
     --text-cap-2: 14px;
     --text-cap-3: 12px;
     --text-cap-3--letter-spacing: 0%;
@@ -56,7 +73,8 @@
 
 body {
     font-family: "Roboto Condensed", sans-serif;
-    @apply bg-grey;
+    background: #15131A;
+    color: var(--color-white);
 }
 
 @layer components {
@@ -68,13 +86,13 @@ body {
     .main-box {
         position: relative;
         padding: 0 24px;
-        max-width: 1500px;
+        max-width: 1920px;
         width: 100%;
         margin: 0 auto;
     }
 
     .wrapper {
-        max-width: 1280px;
+        max-width: 1281px;
         width: 100%;
         margin: 0 auto;
     }
@@ -86,80 +104,31 @@ body {
     }
 
     .text-gradient {
-        @apply bg-gradient-to-r from-[#A54E2B] to-[#DC9853] bg-clip-text text-transparent;
+        @apply bg-gradient-to-r from-[#BE7CFF] to-[#F8766D] bg-clip-text text-transparent;
     }
 
     .button-primary {
-        background-color: var(--color-primary);
-        border-radius: var(--radius-lg);
-        padding: 8px 16px;
+        background: linear-gradient(-49deg, #BE7CFF, #F8766D);
+        border-radius: 43px;
+        padding: 17px 48px;
 
+        font-family: "Poppins", sans-serif;
         text-align: center;
         font-size: var(--text-paragraph);
-        line-height: 16px;
-        color: var(--color-black);
+        line-height: auto;
+        color: var(--color-white);
         white-space: nowrap;
-        letter-spacing: var(--tracking-normal);
-        text-transform: uppercase;
+        letter-spacing: -2%;
 
         @variant hover {
-            background-color: var(--color-primary-hover);
+            background-color: var(--color-white);
+            color: var(--color-black);
         }
 
         @media screen and (min-width: 1024px) {
             & {
                 border-radius: 28px;
                 padding: 24px 64px;
-            }
-        }
-    }
-
-    .button-secondary {
-        background-color: var(--color-black);
-        border-radius: var(--radius-lg);
-        padding: 8px 16px;
-
-        text-align: center;
-        font-size: var(--text-paragraph);
-        line-height: 16px;
-        color: var(--color-primary);
-        white-space: nowrap;
-        letter-spacing: var(--tracking-normal);
-        text-transform: uppercase;
-
-        @variant hover {
-            background-color: var(--color-white);
-        }
-
-        @media screen and (min-width: 1024px) {
-            & {
-                border-radius: var(--radius-xl);
-                padding: 24px 64px;
-            }
-        }
-    }
-
-    .button-nav {
-        background-color: var(--color-primary);
-        border-radius: var(--radius-lg);
-        padding: 8px 16px;
-
-        text-align: center;
-        font-size: var(--text-paragraph);
-        line-height: 16px;
-        color: var(--color-black);
-        white-space: nowrap;
-        letter-spacing: var(--tracking-normal);
-        text-transform: uppercase;
-
-        @variant hover {
-            background-color: var(--color-primary-hover);
-        }
-
-        @media screen and (min-width: 1024px) {
-            & {
-                border-radius: var(--radius-xl);
-                padding: 20px 48px;
             }
         }
     }

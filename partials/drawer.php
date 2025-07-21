@@ -7,16 +7,16 @@
                         <a class="block uppercase text-h5 tracking-tighter text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
                     </li>
                     <li>
-                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">About Us</a>
+                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">About me</a>
                     </li>
                     <li>
-                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Sermon</a>
+                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Services</a>
                     </li>
                     <li>
-                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Blog</a>
+                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">My Work</a>
                     </li>
                     <li>
-                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Contact Us</a>
+                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Contact me</a>
                     </li>
                 </ul>
             </nav>
