@@ -13,9 +13,9 @@ class SweetAlert {
         confirmButtonText: 'Okay',
         customClass: {
             popup: 'bg-grey',
-            title: 'font-roboto',
-            htmlContainer: 'font-roboto text-primary',
-            confirmButton: 'font-roboto !bg-primary uppercase !text-black',
+            title: 'font-jost',
+            htmlContainer: 'font-jost text-primary',
+            confirmButton: 'font-jost !bg-primary uppercase !text-black',
         },
     });
   }
@@ -28,9 +28,9 @@ class SweetAlert {
         confirmButtonText: 'Okay',
         customClass: {
             popup: 'bg-grey',
-            title: 'font-roboto text-red-700 text-h5',
-            htmlContainer: 'font-roboto text-black text-paragraph',
-            confirmButton: 'font-roboto uppercase !bg-red-500 !text-white rounded-full px-6 py-3 hover:!bg-red-600',
+            title: 'font-jost text-red-700 text-h5',
+            htmlContainer: 'font-jost text-black text-paragraph',
+            confirmButton: 'font-jost uppercase !bg-red-500 !text-white rounded-full px-6 py-3 hover:!bg-red-600',
         },
     });
   }
