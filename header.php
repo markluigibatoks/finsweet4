@@ -6,10 +6,10 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <div class="z-10 sticky top-0">
+    <div class="z-10 relative">
       <div class="z-10 main-box bg-black">
         <div class="wrapper">
-          <div class="py-3 lg:py-0 flex items-center justify-between">
+          <div class="py-3 lg:py-[30px] flex items-center justify-between">
             <a href="<?php echo site_url('/')?>">
               <div class="xl:pr-16 pr-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" />
@@ -19,19 +19,19 @@
             <nav class="hidden lg:block">
                 <ul class="flex gap-12">
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
+                      <a class="text-menu-link hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">About Us</a>
+                      <a class="text-menu-link hover:underline" href="#">About me</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Services</a>
+                      <a class="text-menu-link hover:underline" href="#">Services</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Blog</a>
+                      <a class="text-menu-link hover:underline" href="#">My Work</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Contact Us</a>
+                      <a class="text-menu-link hover:underline" href="#">Contact me</a>
                     </li>
                 </ul>
             </nav>
