@@ -1,4 +1,4 @@
-<div class="main-box lg:py-40 lg:pb-20 py-30">
+<div class="main-box lg:py-40 lg:pb-20 pt-30 pb-10">
     <div class="wrapper">
         <div class="md:flex justify-between gap-10 w-full text-center md:text-left">
             <h2 class="lg:text-h2 md:text-h3 text-h5 whitespace-nowrap">About Me</h2>

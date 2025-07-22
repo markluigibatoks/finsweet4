@@ -1,9 +1,17 @@
-<div class="main-box lg:py-30 py-10 bg-black text-white">
+<div class="main-box">
     <div class="wrapper">
-        <div class="w-full text-center">
-            <h2 class="text-4xl">Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi error, ad totam mollitia similique perferendis numquam commodi perspiciatis provident ipsa amet alias odit labore eaque adipisci aliquam rem dolores sed.</p>
-            <a href="#" class="button-primary mx-auto block mt-5 max-w-max">Click here</a>
+        <div class="flex gap-4 lg:gap-8">
+            <div class="max-w-max- mx-auto">
+                <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/main-img1.jpg" alt="man working"/>
+            </div>
+
+            <div class="max-w-max- mx-auto">
+                <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/main-img2.jpg" alt="mobile responsive"/>
+            </div>
+
+            <div class="max-w-max- mx-auto">
+                <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/main-img3.jpg" alt="man working"/>
+            </div>
         </div>
     </div>
 </div>
