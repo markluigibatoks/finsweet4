@@ -1,73 +1,66 @@
-<div class="main-box bg-black py-16">
-    <div class="wrapper">
-      <div id="footer-body" class="grid sm:grid-cols-2 lg:flex gap-5 gap-y-10">
-        <div class="text-white">
-          <a id="footer-logo" href="<?php echo site_url('/')?>">
-            <div class="xl:pr-16 pr-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" />
+<div class="main-box bg-secondary pt-24 pb-8">
+  <div class="wrapper">
+    <div class="flex flex-col md:flex-row gap-5 justify-between">
+      <div class="max-w-[628px] w-full text-center md:text-left">
+          <h2 class="lg:text-h2 md:text-h4 text-h5 lg:mb-12 mb-10">Have an idea? I can help you to Start your project</h2>
+          <p class="text-paragraph-large opacity-60">Say hello to me 👋</p>
+          <a href="mailto:james@finsweet.com" class="block mt-2 max-w-max md:text-h3 text-h5 hover:underline opacity-85 md:mx-0 mx-auto">james@finsweet.com</a>
+      </div>
+
+      <div class="mt-10 md:mt-0 md:mx-0 mx-auto w-full max-w-[368px]">
+          <div class="flex gap-8 items-center">
+            <div class="max-w-max">
+              <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/footer-img1.png" alt="james robertson"/>
             </div>
-          </a>
-
-          <div id="copyright" class="lg:text-left text-center mt-16 lg:mt-7 uppercase text-cap-2 text-white">
-            &copy; Copyright <a class="hover:underline" href="<?php echo site_url('/') ?>"><?php echo get_bloginfo(); ?></a> <?php echo date('Y')?>
-          </div>
-
-          <div class="text-cap-2 mt-8">
-            <a href="tel:(480) 555-0103" target="_blank" class="block hover:underline max-w-max">(480) 555-0103</a>
-            <address class="not-italic">4517 Washington Ave.</address>
-            <a href="mailto:boilerplate@example.com" target="_blank" class="block hover:underline max-w-max">boilerplate@example.com</a>
-          </div>
-        </div>
-
-        <div class="flex gap-18 lg:ml-auto">
-          <div class="text-white">
-            <span>Quicklinks</span>
-            <ul class="mt-5 text-cap-2">
-              <li>
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">About Us</a>
-              </li>
-              <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Services</a>
-              </li>
-              <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Events</a>
-              </li>
-              <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Blog</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="text-white">
-            <span>Connect</span>
-            <div class="mt-5 flex gap-5">
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center">
-                <?php echo inline_svg('/assets/images/facebook.svg'); ?>
-              </a>
-
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center">
-                <?php echo inline_svg('/assets/images/facebook.svg'); ?>
-              </a>
-
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center">
-                <?php echo inline_svg('/assets/images/facebook.svg'); ?>
-              </a>
+            <div>
+              <h2 class="mb-2 lg:text-h3 md:text-h4 text-h5 opacity-85">James Robertson</h2>
+              <span class="md:text-paragraph-large text-paragraph opacity-60">Webflow Developer</span>
             </div>
           </div>
-        </div>
 
-        <div class="col-span-full lg:ml-auto xl:ml-29 text-center lg:text-left">
-            <h2 class="text-h5 md:text-h4 mb-2 lg:mb-8 uppercase text-white">Subscribe to get Latest <span class="lg:block">Updates and News</span></h2>
-
-            <form method="POST" id="newsletter-form">
-              <div class="mx-auto lg:mx-0 flex lg:flex-row flex-col items-center gap-5 max-w-[512px] w-full relative">
-                <input type="email" name="email" placeholder="Yourmail@gmail.com" class="w-full border-white/15 border-1 lg:rounded-tl-xl lg:rounded-bl-xl lg:rounded-tr-[28px] lg:rounded-br-[28px] rounded-lg leading-16 lg:pl-5 lg:pr-55 px-5 text-white/80" />
-                <button type="submit" class="cursor-pointer lg:absolute lg:right-0 button-primary max-w-[201px] w-full">Subscribe</button>
-              </div>
-            </form>
-        </div>
+          <div class="mt-10 flex md:gap-5 gap-3 items-center">
+            <div class="flex items-center justify-center cursor-pointer hover:opacity-50">
+              <?php echo file_get_contents(get_template_directory() . '/assets/images/facebook.svg'); ?>
+            </div>
+            <div class="flex items-center justify-center cursor-pointer hover:opacity-50">
+              <?php echo file_get_contents(get_template_directory() . '/assets/images/instagram.svg'); ?>
+            </div>
+            <div class="flex items-center justify-center cursor-pointer hover:opacity-50">
+              <?php echo file_get_contents(get_template_directory() . '/assets/images/twitter.svg'); ?>
+            </div>
+            <div class="flex items-center justify-center cursor-pointer hover:opacity-50">
+              <?php echo file_get_contents(get_template_directory() . '/assets/images/dribble.svg'); ?>
+            </div>
+            <div class="flex items-center justify-center cursor-pointer hover:opacity-50">
+              <?php echo file_get_contents(get_template_directory() . '/assets/images/behance.svg'); ?>
+            </div>
+          </div>
       </div>
     </div>
+
+    <div class="mt-24 flex flex-col md:flex-row md:justify-between items-center gap-5">
+      <div id="copyright" class="order-2 md:order-1 opacity-60 lg:text-left text-center text-white">
+        &copy; <?php echo date('Y')?> <a class="hover:underline" href="<?php echo site_url('/') ?>"><?php echo get_bloginfo(); ?></a> Powered by Webflow
+      </div>
+
+      <nav class="order-1 md:order-2">
+        <ul class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <li>
+              <a class="text-menu-link hover:underline" href="#">About me</a>
+            </li>
+            <li>
+              <a class="text-menu-link hover:underline" href="#">Services</a>
+            </li>
+            <li>
+              <a class="text-menu-link hover:underline" href="#">My Work</a>
+            </li>
+            <li>
+              <a class="text-menu-link hover:underline" href="#">Contact me</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </div>
 
 <?php wp_footer(); ?>
