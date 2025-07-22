@@ -6,7 +6,7 @@
         </div>
 
         <div class="mt-10 lg:mt-19 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="w-full bg-[#0B0A0C] lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
+          <div class="w-full bg-secondary lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
             <div class="flex mb-8">
               <?php echo file_get_contents(get_template_directory() . '/assets/images/front-page/bottom5-icon1.svg'); ?>
             </div>
@@ -24,7 +24,7 @@
             </div>
           </div>
 
-          <div class="w-full bg-[#0B0A0C] lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
+          <div class="w-full bg-secondary lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
             <div class="flex mb-8">
               <?php echo file_get_contents(get_template_directory() . '/assets/images/front-page/bottom5-icon1.svg'); ?>
             </div>
@@ -42,7 +42,7 @@
             </div>
           </div>
 
-          <div class="col-span-full lg:col-span-1 w-full bg-[#0B0A0C] lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
+          <div class="col-span-full lg:col-span-1 w-full bg-secondary lg:pt-18 lg:px-12 lg:pb-12 px-5 py-10">
             <div class="flex mb-8">
               <?php echo file_get_contents(get_template_directory() . '/assets/images/front-page/bottom5-icon1.svg'); ?>
             </div>

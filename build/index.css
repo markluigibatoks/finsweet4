@@ -79,6 +79,7 @@
     --text-cap-3: 12px;
     --text-cap-3--letter-spacing: 0;
     --color-primary: #CB79B1;
+    --color-secondary: #0B0A0C;
   }
 }
 @layer base {
@@ -732,12 +733,6 @@
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
-  .mt-18 {
-    margin-top: calc(var(--spacing) * 18);
-  }
-  .mt-19 {
-    margin-top: calc(var(--spacing) * 19);
-  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -795,9 +790,6 @@
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
-  .h-12 {
-    height: calc(var(--spacing) * 12);
-  }
   .h-full {
     height: 100%;
   }
@@ -815,9 +807,6 @@
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
-  }
-  .w-12 {
-    width: calc(var(--spacing) * 12);
   }
   .w-full {
     width: 100%;
@@ -984,6 +973,9 @@
       background-color: color-mix(in oklab, var(--color-black) 64%, transparent);
     }
   }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -1017,9 +1009,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .px-12 {
-    padding-inline: calc(var(--spacing) * 12);
-  }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -1044,9 +1033,6 @@
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
   }
-  .pt-18 {
-    padding-top: calc(var(--spacing) * 18);
-  }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
   }
@@ -1061,9 +1047,6 @@
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
-  }
-  .pb-12 {
-    padding-bottom: calc(var(--spacing) * 12);
   }
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
@@ -1360,11 +1343,6 @@
       order: 2;
     }
   }
-  .md\:col-span-full {
-    @media (width >= 48rem) {
-      grid-column: 1 / -1;
-    }
-  }
   .md\:mx-0 {
     @media (width >= 48rem) {
       margin-inline: calc(var(--spacing) * 0);
@@ -1655,11 +1633,6 @@
   .lg\:py-32 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 32);
-    }
-  }
-  .lg\:py-37 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 37);
     }
   }
   .lg\:py-40 {
