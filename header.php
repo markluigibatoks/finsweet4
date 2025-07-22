@@ -7,7 +7,7 @@
   </head>
   <body <?php body_class(); ?>>
     <div class="z-10 relative">
-      <div class="z-10 main-box bg-black">
+      <div class="z-10 main-box">
         <div class="wrapper">
           <div class="py-3 lg:py-[30px] flex items-center justify-between">
             <a href="<?php echo site_url('/')?>">
@@ -17,10 +17,7 @@
             </a>
 
             <nav class="hidden lg:block">
-                <ul class="flex gap-12">
-                    <li>
-                      <a class="text-menu-link hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
-                    </li>
+                <ul class="flex gap-8">
                     <li>
                       <a class="text-menu-link hover:underline" href="#">About me</a>
                     </li>
