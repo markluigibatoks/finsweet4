@@ -5,7 +5,7 @@
             
             <div class="md:mt-1 md:max-w-[733px]">
                 <p class="md:text-paragraph-large text-paragraph-big opacity-87">Hi, my name is James and I'm a designer from San Francisco. I have over 10 years experience in leading teams and shipping complex digital products.</p>
-                <a href="#" class="text-primary text-lg font-medium hover:underline mx-auto md:mx-0 block mt-8 max-w-max tracking-[-0.36px]">More About Me</a>
+                <a href="<?php echo site_url('/about-me')?>" class="text-primary text-lg font-medium hover:underline mx-auto md:mx-0 block mt-8 max-w-max tracking-[-0.36px]">More About Me</a>
             </div>
         </div>
     </div>

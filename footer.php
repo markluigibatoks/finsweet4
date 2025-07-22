@@ -46,7 +46,7 @@
       <nav class="order-1 md:order-2">
         <ul class="grid grid-cols-2 md:grid-cols-4 gap-8">
             <li>
-              <a class="text-menu-link hover:underline" href="#">About me</a>
+              <a class="text-menu-link hover:underline" href="<?php echo site_url('/about-me')?>">About me</a>
             </li>
             <li>
               <a class="text-menu-link hover:underline" href="#">Services</a>
