@@ -6,28 +6,28 @@
         </div>
 
         <div class="lg:mt-20 mt-10 columns-2 gap-2 lg:gap-x-8">
-          <div class="group max-w-max- mx-auto mb-2 lg:mb-11 relative cursor-pointer">
+          <div class="group max-w-max mx-auto mb-2 lg:mb-11 relative cursor-pointer">
             <div class="group-hover:flex hidden absolute top-0 left-0 w-full h-full bg-black/64 text-h4 justify-center items-center">
               <span>View Project</span>
             </div>
             <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom4-img1.jpg" alt="portfolio"/>
           </div>
 
-          <div class="group max-w-max- mx-auto mb-2 lg:mb-11 relative cursor-pointer">
+          <div class="group max-w-max mx-auto mb-2 lg:mb-11 relative cursor-pointer">
             <div class="group-hover:flex hidden absolute top-0 left-0 w-full h-full bg-black/64 text-h4 justify-center items-center">
               <span>View Project</span>
             </div>
             <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom4-img3.jpg" alt="portfolio"/>
           </div>
 
-          <div class="group max-w-max- mx-auto mb-2 lg:mb-11 relative cursor-pointer">
+          <div class="group max-w-max mx-auto mb-2 lg:mb-11 relative cursor-pointer">
             <div class="group-hover:flex hidden absolute top-0 left-0 w-full h-full bg-black/64 text-h4 justify-center items-center">
               <span>View Project</span>
             </div>
             <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom4-img2.jpg" alt="portfolio"/>
           </div>
 
-          <div class="group max-w-max- mx-auto mb-2 lg:mb-11 relative cursor-pointer">
+          <div class="group max-w-max mx-auto mb-2 lg:mb-11 relative cursor-pointer">
             <div class="group-hover:flex hidden absolute top-0 left-0 w-full h-full bg-black/64 text-h4 justify-center items-center">
               <span>View Project</span>
             </div>

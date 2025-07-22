@@ -9,7 +9,7 @@
             </div>
 
             <div class="order-1 md:order-2">
-                <div class="mb-6 w-full max-w-max- mx-auto">
+                <div class="mb-6 w-full max-w-max mx-auto">
                     <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/banner.jpg" alt="james robertson"/>
                 </div>
                 <span class="text-label-1 opacity-60">Contact me at</span>
