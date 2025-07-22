@@ -31,9 +31,9 @@
     --text-h5--letter-spacing: -0.24px;
 
     --text-h4: 24px;
-    --text-h4--font-weight: 700;
-    --text-h4--line-height: 44px;
-    --text-h4--letter-spacing: -0.32px;
+    --text-h4--font-weight: 500;
+    --text-h4--line-height: auto;
+    --text-h4--letter-spacing: 0;
 
     --text-h3: 32px;
     --text-h3--font-weight: 500;
