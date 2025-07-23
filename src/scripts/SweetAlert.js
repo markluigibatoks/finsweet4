@@ -15,7 +15,7 @@ class SweetAlert {
             popup: 'bg-grey',
             title: 'font-jost',
             htmlContainer: 'font-jost text-primary',
-            confirmButton: 'font-jost !bg-primary uppercase !text-black',
+            confirmButton: 'font-jost !bg-primary uppercase !text-white',
         },
     });
   }

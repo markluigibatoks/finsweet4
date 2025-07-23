@@ -288,6 +288,9 @@
   .my-0 {
     margin-block: calc(var(--spacing) * 0);
   }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
+  }
   .prose {
     color: var(--tw-prose-body);
     max-width: 65ch;
@@ -709,6 +712,9 @@
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -823,6 +829,9 @@
   .max-w-\[368px\] {
     max-width: 368px;
   }
+  .max-w-\[623px\] {
+    max-width: 623px;
+  }
   .max-w-\[628px\] {
     max-width: 628px;
   }
@@ -898,6 +907,9 @@
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -929,6 +941,10 @@
     border-block-style: var(--tw-border-style);
     border-block-width: 1px;
   }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-b-16 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 16px;
@@ -944,6 +960,12 @@
     border-block-color: color-mix(in srgb, #fff 17%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       border-block-color: color-mix(in oklab, var(--color-white) 17%, transparent);
+    }
+  }
+  .border-b-white\/20 {
+    border-bottom-color: color-mix(in srgb, #fff 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-bottom-color: color-mix(in oklab, var(--color-white) 20%, transparent);
     }
   }
   .border-l-white\/12 {
@@ -990,6 +1012,9 @@
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -1104,6 +1129,10 @@
   .text-paragraph-large {
     font-size: var(--text-paragraph-large);
     line-height: var(--tw-leading, var(--text-paragraph-large--line-height));
+  }
+  .text-paragraph\/87 {
+    font-size: var(--text-paragraph);
+    line-height: calc(var(--spacing) * 87);
   }
   .text-xl {
     font-size: var(--text-xl);
@@ -1457,6 +1486,11 @@
   .lg\:col-span-1 {
     @media (width >= 64rem) {
       grid-column: span 1 / span 1;
+    }
+  }
+  .lg\:mx-0 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 0);
     }
   }
   .lg\:my-4 {
