@@ -28,7 +28,7 @@
                       <a class="text-menu-link hover:underline" href="#">My Work</a>
                     </li>
                     <li>
-                      <a class="text-menu-link hover:underline" href="#">Contact me</a>
+                      <a class="text-menu-link hover:underline" href="<?php echo site_url('/contact-me')?>">Contact me</a>
                     </li>
                 </ul>
             </nav>

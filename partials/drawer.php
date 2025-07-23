@@ -16,7 +16,7 @@
                         <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">My Work</a>
                     </li>
                     <li>
-                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Contact me</a>
+                        <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="<?php echo site_url('/contact-me')?>">Contact me</a>
                     </li>
                 </ul>
             </nav>
