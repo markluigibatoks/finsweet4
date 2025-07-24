@@ -1,4 +1,4 @@
-<div class="main-box bg-secondary pt-24 pb-8">
+<footer class="main-box bg-secondary pt-24 pb-8">
   <div class="wrapper">
     <div class="flex flex-col md:flex-row gap-5 justify-between">
       <div class="max-w-[628px] w-full text-center md:text-left">
@@ -61,7 +61,7 @@
       </nav>
     </div>
   </div>
-</div>
+</footer>
 
 <?php wp_footer(); ?>
 </body>

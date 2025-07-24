@@ -1,4 +1,4 @@
-<div class="main-box">
+<main class="main-box">
     <div class="wrapper">
         <div class="flex gap-4 lg:gap-8">
             <div class="max-w-max mx-auto">
@@ -14,4 +14,4 @@
             </div>
         </div>
     </div>
-</div>
+</main>
