@@ -4,7 +4,7 @@
             <div class="order-2 md:order-1 max-w-[765px] w-full text-center md:text-left text-white">
                 <span class="text-cap-1 uppercase opacity-85">Hello! I Am James Robertson</span>
                 <h2 class="lg:my-6 mt-2 mb-5 lg:text-h1 md:text-h3 text-h5">Building Delightful Design Experiences for Users.</h2>
-                <p class="text-paragraph-big lg:max-w-[514px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque tempor, Malesuada adipiscing congue diam.</p>
+                <p class="text-paragraph-big lg:max-w-[514px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque tempor, Malesuada adipiscing congue diae.</p>
                 <a href="#" class="mt-10 button-primary block max-w-max mx-auto md:mx-0">Start a project</a>
             </div>
 
